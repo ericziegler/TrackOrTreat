@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0739B0E321563AA90001ECAF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739B0E221563AA90001ECAF /* Utilities.swift */; };
+		0739B0E52157C3F30001ECAF /* ElderGodsBB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0739B0E42157C3F30001ECAF /* ElderGodsBB.ttf */; };
+		0739B0E72158ED3A0001ECAF /* TimePickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739B0E62158ED3A0001ECAF /* TimePickersViewController.swift */; };
+		07636EC31FA13865000A9A3B /* Spooky Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07636EC21FA13865000A9A3B /* Spooky Light.ttf */; };
+		0795599A1FA34E9D00492A35 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 079559991FA34E9D00492A35 /* click.wav */; };
+		07EBC1861FA350E700FB1BCE /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EBC1851FA350E700FB1BCE /* SoundManager.swift */; };
+		07F62C021FA8C6FC00E757F9 /* TrickOrTreater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F62C011FA8C6FC00E757F9 /* TrickOrTreater.swift */; };
+		07F62C041FA8C70600E757F9 /* TrickOrTreatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F62C031FA8C70600E757F9 /* TrickOrTreatManager.swift */; };
+		07F62C061FA8CBB100E757F9 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F62C051FA8CBB100E757F9 /* GraphViewController.swift */; };
+		07F62C081FA8CDF100E757F9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F62C071FA8CDF100E757F9 /* GraphView.swift */; };
+		07F62C0A1FA8D8F100E757F9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F62C091FA8D8F100E757F9 /* Extensions.swift */; };
+		07FA6F1E1FA12E3500EDDADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA6F1D1FA12E3500EDDADE /* AppDelegate.swift */; };
+		07FA6F201FA12E3500EDDADE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA6F1F1FA12E3500EDDADE /* MainViewController.swift */; };
+		07FA6F231FA12E3500EDDADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA6F211FA12E3500EDDADE /* Main.storyboard */; };
+		07FA6F251FA12E3500EDDADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FA6F241FA12E3500EDDADE /* Assets.xcassets */; };
+		07FA6F281FA12E3500EDDADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA6F261FA12E3500EDDADE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0739B0E221563AA90001ECAF /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0739B0E42157C3F30001ECAF /* ElderGodsBB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ElderGodsBB.ttf; sourceTree = "<group>"; };
+		0739B0E62158ED3A0001ECAF /* TimePickersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickersViewController.swift; sourceTree = "<group>"; };
+		07636EC21FA13865000A9A3B /* Spooky Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spooky Light.ttf"; sourceTree = "<group>"; };
+		079559991FA34E9D00492A35 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		07EBC1851FA350E700FB1BCE /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		07F62C011FA8C6FC00E757F9 /* TrickOrTreater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickOrTreater.swift; sourceTree = "<group>"; };
+		07F62C031FA8C70600E757F9 /* TrickOrTreatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickOrTreatManager.swift; sourceTree = "<group>"; };
+		07F62C051FA8CBB100E757F9 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		07F62C071FA8CDF100E757F9 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		07F62C091FA8D8F100E757F9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		07FA6F1A1FA12E3500EDDADE /* SpookyCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpookyCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FA6F1D1FA12E3500EDDADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07FA6F1F1FA12E3500EDDADE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		07FA6F221FA12E3500EDDADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FA6F241FA12E3500EDDADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FA6F271FA12E3500EDDADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07FA6F291FA12E3500EDDADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FA6F171FA12E3500EDDADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FA6F111FA12E3500EDDADE = {
+			isa = PBXGroup;
+			children = (
+				07FA6F1C1FA12E3500EDDADE /* SpookyCounter */,
+				07FA6F1B1FA12E3500EDDADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FA6F1B1FA12E3500EDDADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FA6F1A1FA12E3500EDDADE /* SpookyCounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FA6F1C1FA12E3500EDDADE /* SpookyCounter */ = {
+			isa = PBXGroup;
+			children = (
+				07FA6F1D1FA12E3500EDDADE /* AppDelegate.swift */,
+				07FA6F1F1FA12E3500EDDADE /* MainViewController.swift */,
+				0739B0E62158ED3A0001ECAF /* TimePickersViewController.swift */,
+				07F62C051FA8CBB100E757F9 /* GraphViewController.swift */,
+				07F62C071FA8CDF100E757F9 /* GraphView.swift */,
+				07FA6F211FA12E3500EDDADE /* Main.storyboard */,
+				07F62C031FA8C70600E757F9 /* TrickOrTreatManager.swift */,
+				07F62C011FA8C6FC00E757F9 /* TrickOrTreater.swift */,
+				07EBC1851FA350E700FB1BCE /* SoundManager.swift */,
+				07F62C091FA8D8F100E757F9 /* Extensions.swift */,
+				0739B0E221563AA90001ECAF /* Utilities.swift */,
+				07FA6F241FA12E3500EDDADE /* Assets.xcassets */,
+				0739B0E42157C3F30001ECAF /* ElderGodsBB.ttf */,
+				07636EC21FA13865000A9A3B /* Spooky Light.ttf */,
+				07FA6F261FA12E3500EDDADE /* LaunchScreen.storyboard */,
+				07FA6F291FA12E3500EDDADE /* Info.plist */,
+				079559991FA34E9D00492A35 /* click.wav */,
+			);
+			path = SpookyCounter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FA6F191FA12E3500EDDADE /* SpookyCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FA6F2C1FA12E3500EDDADE /* Build configuration list for PBXNativeTarget "SpookyCounter" */;
+			buildPhases = (
+				07FA6F161FA12E3500EDDADE /* Sources */,
+				07FA6F171FA12E3500EDDADE /* Frameworks */,
+				07FA6F181FA12E3500EDDADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpookyCounter;
+			productName = SpookyCounter;
+			productReference = 07FA6F1A1FA12E3500EDDADE /* SpookyCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FA6F121FA12E3500EDDADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zigabytes;
+				TargetAttributes = {
+					07FA6F191FA12E3500EDDADE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MJA8334VZT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 07FA6F151FA12E3500EDDADE /* Build configuration list for PBXProject "SpookyCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FA6F111FA12E3500EDDADE;
+			productRefGroup = 07FA6F1B1FA12E3500EDDADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FA6F191FA12E3500EDDADE /* SpookyCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FA6F181FA12E3500EDDADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FA6F281FA12E3500EDDADE /* LaunchScreen.storyboard in Resources */,
+				0795599A1FA34E9D00492A35 /* click.wav in Resources */,
+				07636EC31FA13865000A9A3B /* Spooky Light.ttf in Resources */,
+				07FA6F251FA12E3500EDDADE /* Assets.xcassets in Resources */,
+				0739B0E52157C3F30001ECAF /* ElderGodsBB.ttf in Resources */,
+				07FA6F231FA12E3500EDDADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FA6F161FA12E3500EDDADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F62C021FA8C6FC00E757F9 /* TrickOrTreater.swift in Sources */,
+				07EBC1861FA350E700FB1BCE /* SoundManager.swift in Sources */,
+				07F62C081FA8CDF100E757F9 /* GraphView.swift in Sources */,
+				07F62C0A1FA8D8F100E757F9 /* Extensions.swift in Sources */,
+				07F62C041FA8C70600E757F9 /* TrickOrTreatManager.swift in Sources */,
+				07F62C061FA8CBB100E757F9 /* GraphViewController.swift in Sources */,
+				0739B0E321563AA90001ECAF /* Utilities.swift in Sources */,
+				0739B0E72158ED3A0001ECAF /* TimePickersViewController.swift in Sources */,
+				07FA6F201FA12E3500EDDADE /* MainViewController.swift in Sources */,
+				07FA6F1E1FA12E3500EDDADE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07FA6F211FA12E3500EDDADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FA6F221FA12E3500EDDADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07FA6F261FA12E3500EDDADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FA6F271FA12E3500EDDADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FA6F2A1FA12E3500EDDADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07FA6F2B1FA12E3500EDDADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FA6F2D1FA12E3500EDDADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MJA8334VZT;
+				INFOPLIST_FILE = SpookyCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zigabytes.SpookyCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		07FA6F2E1FA12E3500EDDADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MJA8334VZT;
+				INFOPLIST_FILE = SpookyCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zigabytes.SpookyCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FA6F151FA12E3500EDDADE /* Build configuration list for PBXProject "SpookyCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FA6F2A1FA12E3500EDDADE /* Debug */,
+				07FA6F2B1FA12E3500EDDADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FA6F2C1FA12E3500EDDADE /* Build configuration list for PBXNativeTarget "SpookyCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FA6F2D1FA12E3500EDDADE /* Debug */,
+				07FA6F2E1FA12E3500EDDADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07FA6F121FA12E3500EDDADE /* Project object */;
+}
