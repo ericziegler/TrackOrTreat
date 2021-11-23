@@ -68,20 +68,21 @@ class MainViewController: UIViewController {
         actionSheet.addAction(soundAction)
         actionSheet.addAction(undoAction)
         actionSheet.addAction(resetAction)
+        actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         
         self.present(actionSheet, animated: true, completion: nil)
     }
     
     func resetCount() {
         let alert = UIAlertController(title: "Reset Trick or Treat Count?", message: "Are you sure you would like to reset the count back to zero?", preferredStyle: .alert)
-        let resetAction = UIAlertAction(title: "Reset", style: UIAlertActionStyle.destructive) { (_) in
+        let resetAction = UIAlertAction(title: "Reset", style: UIAlertAction.Style.destructive) { (_) in
             TrickOrTreatManager.shared.resetTrickOrTreaters()
             let timePickersController = TimePickersViewController.createController()
             self.present(timePickersController, animated: true, completion: nil)
             self.updateCount()
         }
 
-        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil)
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
         alert.addAction(resetAction)
         alert.addAction(cancelAction)
         self.present(alert, animated: true, completion: nil)
